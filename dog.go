@@ -1,11 +1,7 @@
 package dog
 
-func dog() string {
-	return "Hi Erick"
+import "strings"
 
-}
-
-func dogs() string {
-	return "Package dog - demo3"
-
+func WhenGrownUp(s string) string {
+	return "when the puppy grows up it says: " + strings.ToUpper(s)
 }
